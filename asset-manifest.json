@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/project2/static/css/main.e6a3cbed.chunk.css",
+    "main.js": "/project2/static/js/main.7152b15b.chunk.js",
+    "main.js.map": "/project2/static/js/main.7152b15b.chunk.js.map",
+    "runtime-main.js": "/project2/static/js/runtime-main.4d9b012b.js",
+    "runtime-main.js.map": "/project2/static/js/runtime-main.4d9b012b.js.map",
+    "static/js/2.20e939bb.chunk.js": "/project2/static/js/2.20e939bb.chunk.js",
+    "static/js/2.20e939bb.chunk.js.map": "/project2/static/js/2.20e939bb.chunk.js.map",
+    "index.html": "/project2/index.html",
+    "precache-manifest.f6e87092ab0a05df4e2572b8e0b9b008.js": "/project2/precache-manifest.f6e87092ab0a05df4e2572b8e0b9b008.js",
+    "service-worker.js": "/project2/service-worker.js",
+    "static/css/main.e6a3cbed.chunk.css.map": "/project2/static/css/main.e6a3cbed.chunk.css.map",
+    "static/js/2.20e939bb.chunk.js.LICENSE": "/project2/static/js/2.20e939bb.chunk.js.LICENSE",
+    "static/media/Data Scientist Resume.png": "/project2/static/media/Data Scientist Resume.614384fd.png",
+    "static/media/Digital Marketing Resume.png": "/project2/static/media/Digital Marketing Resume.a5adb20a.png",
+    "static/media/Graphic Design Resume.png": "/project2/static/media/Graphic Design Resume.b6481c43.png",
+    "static/media/Laika1.png": "/project2/static/media/Laika1.ce623a4f.png",
+    "static/media/Laika2.png": "/project2/static/media/Laika2.79a2017a.png",
+    "static/media/Laika4.png": "/project2/static/media/Laika4.7fe1b9a0.png",
+    "static/media/Laika5.png": "/project2/static/media/Laika5.4d0c10bd.png",
+    "static/media/Pop-up.png": "/project2/static/media/Pop-up.7133e54f.png",
+    "static/media/Web Development Resume.png": "/project2/static/media/Web Development Resume.481d7f7e.png",
+    "static/media/App.css": "/project2/static/media/background.9c94b6bd.png",
+    "static/media/bill1.png": "/project2/static/media/bill1.45c6bf6c.png",
+    "static/media/bill2.png": "/project2/static/media/bill2.f802fffc.png",
+    "static/media/bill3.png": "/project2/static/media/bill3.c7cfc5ab.png",
+    "static/media/bill4.png": "/project2/static/media/bill4.63413da7.png",
+    "static/media/firstPage.png": "/project2/static/media/firstPage.dc8769ce.png",
+    "static/media/laika3.png": "/project2/static/media/laika3.68bf2bb7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d9b012b.js",
+    "static/js/2.20e939bb.chunk.js",
+    "static/css/main.e6a3cbed.chunk.css",
+    "static/js/main.7152b15b.chunk.js"
+  ]
+}
