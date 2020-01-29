@@ -1,0 +1,46 @@
+.wd-skils {
+    margin:15px 0 50px 0;
+    position: relative;
+}
+.wd-skils .popup{
+    display: none;
+}
+.wd-skils:hover .popup{
+    display: block;
+}
+
+
+.Skils{
+    margin-bottom: 50px;
+    text-align: left;
+}
+.skils {
+    position: relative;
+    display: inline;
+}
+.skils:hover .korpa{
+    display: block;
+}
+.WebDevelopment .skils .p-wd{
+    background-color: #2dbbad;
+}
+.skils p {
+
+    color: white;
+    font-size: 11px;
+    text-transform: capitalize;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 5px 10px 10px 5px;
+    display: inline-block;
+}
+.trash-skils{
+    position: absolute;
+    left: 6px;
+    top: -19px;
+}
+.korpa {
+    padding:5px;
+    font-size: 9px;
+    display: none;
+}

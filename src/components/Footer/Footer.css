@@ -1,0 +1,11 @@
+.Footer {
+  margin: 40px auto 0 auto;
+}
+.Footer p {
+    font-size: 13px;
+    color: #a9adb1;
+}
+.Footer a {
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,6 @@
+.education-btn {
+    position: relative;
+}
+input[placeholder="Institution/Place of Education"] {
+    width: 69%;
+}

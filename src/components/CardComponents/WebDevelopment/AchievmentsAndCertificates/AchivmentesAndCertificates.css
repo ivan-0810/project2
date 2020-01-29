@@ -1,0 +1,26 @@
+.wd-achievments{
+    margin-bottom: 50px;
+}
+.achievments {
+    position: relative;;
+}
+.achievments .achievmentsP{
+    display: block;
+    background-color: none;
+    color: black;
+    text-align: left;
+}
+.achievments:hover .korpa{
+    display: block;
+}
+.achievments .trash-achievments{
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+}
+.wd-achievments .popup{
+    display: none;
+}
+.wd-achievments:hover .popup{
+    display: block;
+}

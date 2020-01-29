@@ -1,0 +1,21 @@
+.design-education span{
+    font-weight: unset;
+    font-size: 11px;
+    margin-top: 5px;
+}
+.design-education {
+    text-align: left;
+}
+.design-education ul{
+    padding: 0;
+}
+.design-education ul li {
+    list-style: none;
+    text-align: left;
+}
+.design-edu-popup {
+    position: relative;
+}
+.design-edu-popup  .popup{
+    top: -131px!important;
+}

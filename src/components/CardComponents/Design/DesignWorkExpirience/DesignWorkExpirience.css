@@ -1,0 +1,61 @@
+.DesignWorkExpirience{
+    margin-bottom: 50px;
+}
+.DesignWorkExpirience .btnAdd {
+ margin: 0;
+ color: black;
+ background-color: white;
+ border: 2px solid black;
+ transition: background-color 1s;
+ outline: none;
+}
+.DesignWorkExpirience .btnAdd:hover {
+    color: white;
+    background-color: black;
+}
+.DesignWorkExpirience .design-inputs-dates{
+    width: 24px;
+    height: 20px;
+    font-size: 11px;
+}
+.design-inputs-dates::placeholder {
+    text-transform: lowercase;
+}
+.design-inputs-dates::placeholder,.title-input::placeholder{
+    color: black;
+    text-align: center;
+    
+}
+.title-input {
+    width:fit-content;
+    display: block;
+}
+.title-input::placeholder{
+    color: black;
+    text-align: left;
+}
+.design-span{
+    color: black;
+    font-weight: bold;
+}
+.design-title {
+    font-size: 11px;
+    text-transform: capitalize;
+    margin-bottom: 5px!important;
+}
+.DesignWorkExpirience textarea{
+    width: 70%;
+    margin-top: 5px;
+    font-size: 11px;
+}
+.DesignWorkExpirience textarea:placeholder-shown{
+    text-align: left;
+}
+
+.DesignWorkExpirience .desgin-pargraph {
+   margin-top: 10px;
+   font-size: 11px;
+}
+.DesignWorkExpirience .work-expirience{
+    margin-bottom: 40px;
+}

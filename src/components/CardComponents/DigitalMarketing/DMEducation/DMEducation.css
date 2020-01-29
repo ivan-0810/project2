@@ -1,0 +1,7 @@
+.dm-education .dm-education-ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dm-education-li {
+    flex-basis: 47%;
+}

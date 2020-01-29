@@ -1,0 +1,111 @@
+.design-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 91.5%;
+    border: 3px solid #000000;
+    border-radius: 4px;
+    margin-top:-126px;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+}
+.Design{
+    width: 85%;
+    margin-left: 20px;
+}
+.design-main-container .left-main-block{
+    margin-top: 84px;
+    margin-left: 40px;
+    flex-basis: 54%;
+}
+.design-main-container .right-main-block{
+    margin-top: 84px;
+}
+
+.design-header {
+    width:61%;
+    padding: 108px 10px 40px 21px;
+    background-color: black;
+}
+
+.design-header input::placeholder{
+    color: black;
+}
+.design-header h1 {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.design-header h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.design-header h1, .design-header h4 {
+    color: white;
+    text-align: left;
+    letter-spacing: 13px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.design-header h4 {
+    font-weight: unset;
+}
+.design-main-container .paragraph{
+    flex-basis: 100%;
+    margin-top: 200px;
+    text-align: left;
+    margin-left: 40px;
+
+}
+.design-main-container .shortEngage label ,.design-main-container .shortEngage textarea, label p {
+    width: 80%;
+    outline: none;
+}
+.left-main-block textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    text-align: center;
+}
+.Design h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-align: left;
+    }
+  
+    .Design .right-main-block .design .design-skils .design-skils-p{
+        font-size: 11px;
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
+    .Design .right-main-block .design {
+        text-align: left;
+    }
+    .design-contacts div {
+        display: flex;
+        align-items: center;
+        font-size: 9px;
+        margin: 3px 0 5px 0;
+    }
+    .design-contacts label{
+        cursor: pointer;
+    }
+  
+    .design-contacts div i {
+        display: none;
+    }
+    .design-contacts .popup{
+        right: 176px!important;
+    }
+    .design-contacts  .hide-twiter .trash-twiteer {
+        position: relative;
+    }
+    .design-contacts .hide-twiter .korpa-twiter{
+        display: block!important;
+    }
+    .design-contacts input{
+        width: 50%;
+    }
+

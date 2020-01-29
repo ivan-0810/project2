@@ -1,0 +1,84 @@
+.DMWorkExpirience{
+    margin-bottom: 50px;
+}
+
+.DMWorkExpirience h4 {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.DMWorkExpirience p {
+    text-transform: capitalize;
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+.DMWorkExpirience .btnAdd{
+    color: #f9ffff;
+    background-color: #468f98;
+    border: none;
+}
+.dm-work-expirience {
+    position: relative;
+}
+.dm-work-expirience .Line {
+    width: 25px;
+    height: 2px;
+    background-color: #468f98;
+    position: left;
+    position: absolute;
+    left: -41px;
+    top: 11px;
+}
+.dm-work-expirience .span-left,.dm-work-expirience h5,.dm-work-expirience .span-right {
+    color: #468f98;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.dm-work-expirience h5{
+    margin-top: 30px;
+}
+.span-dm{
+    color: #468f98!important;
+    font-size: 11px;
+  
+}
+.radio-checkbox1-dm {
+    margin-top: 12px;
+}
+.radio-checkbox-dm {
+    background-color: #468f98;
+}
+.krugche {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #468f98;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: -1px
+}
+.dm-ul{
+    padding-left: 0;
+ 
+}
+.dm-li {
+    margin-left: 0;
+    margin-top: 5px;
+    list-style: none;
+    font-size: 11px;
+}
+ .dm-edu-ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+ .dm-edu-li{
+    flex-basis: 50%;
+}
+.dm-work-expirience:hover .btnRemove{
+    display: block;
+}
+.span2InputVal-dm input {
+    border-bottom: 1px dashed #468f98!important;
+}

@@ -1,0 +1,16 @@
+.informal-education{
+    margin-top: 50px;
+}
+.informal-education h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3a444e;
+}
+.informalEducationP {
+    border: 1px solid lightgray;
+    box-shadow: 5px 5px 5px 0 lightgray;
+    cursor: pointer;
+}
+.trash-informEdu {
+    top: -34px;
+}

@@ -1,0 +1,110 @@
+.DigitalMarketing{
+    width: 75%;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.DigitalMarketintipsHeader { 
+    width: 78%;
+    height: 99px;
+    position: absolute;
+    top: 110px;
+    left: 157px;
+}
+.DataSciencetipsPhoto{
+    width: 17%;
+    height: 130px;
+    position: absolute;
+    top: 90px;
+    left: 3px;
+}
+.DataSciencetipsInfos{
+    width: 100%; 
+    height: 50px;
+    position:absolute;
+    top: 233px;
+    right:0;
+}
+.DigitalMarketingtipsWorkExpirience {
+    width:38%;
+    height: 61vh;
+    position: absolute;
+    top: 40vh;
+}
+.DigitalMarketingtipsSKils {
+    width: 33%;
+    height: 18vh;
+    position: absolute;
+    top: 39vh;
+    right: 23%;
+}
+.DigitalMarketingtipsAchievmens {
+    width: 32%;
+    height: 14vh;
+    position: absolute;
+    top: 38%;
+    right: 24%;
+}
+
+.DigitalMarketingtipsEducation {
+    width: 34%;
+    height: 23vh;
+    position: absolute;
+    bottom: 21vh;
+    left: 5%;
+}
+.DigitalMarketingtipsLanguages {
+    width: 23%;
+    height: 79px;
+    position: absolute;
+    top: 74vh;
+    right: 33%;
+}
+.DigitalMarketing .dataScienceTitle .shortEngage input[placeholder="Short and engaging pitch about yourself."] {
+    width: 100%!important;
+ 
+}
+.DigitalMarketing input::placeholder,.DigitalMarketing textarea::placeholder{
+    color: #468f98;
+}
+.DigitalMarketing .contacts-dm {
+    background-color: #468f98;
+    border: none;
+}
+.DigitalMarketing .contacts-dm .email-dm{
+    flex-basis: 50%;
+}
+.DigitalMarketing .contacts-dm .email-dm p,.DigitalMarketing .contacts-dm .email-dm i,.DigitalMarketing .contacts-dm .phone-dm p,.DigitalMarketing .contacts-dm .phone-dm i{
+    color: #f9ffff;
+}
+.DigitalMarketing h2{
+    color: #468f98;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.DigitalMarketing .languages .btnAdd {
+    color: #f9ffff;
+    background-color: #468f98;
+    border: none
+}
+.skils .p-dm {
+    background-color: #468f98;
+}
+.DigitalMarketing .left-main-block-dm, .DigitalMarketing .right-main-block-dm{
+    flex-basis: 50%;
+    text-align: left;
+}
+.DigitalMarketing textarea {
+    border: 1 px solid #468f98;
+}
+.left-main-block-dm{margin-right: 30px;}
+.right-main-block-dm{margin-left: 30px;}
+.mainContainer-dm {
+    display: flex;
+    width: 90%;
+    margin: 0 auto 100px auto;
+    
+}
+.languages-dm .dm-final .dm-languages-title{
+    color: #468f98;
+}

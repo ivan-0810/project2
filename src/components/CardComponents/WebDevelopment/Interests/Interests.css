@@ -1,0 +1,36 @@
+label{
+    display: block;
+}
+.interests {
+    position: relative;
+    display: inline;
+}
+.interestsP {
+    display: inline-block;
+    border: 2px solid gray;
+    font-size: 11px;
+    text-transform: capitalize;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 5px 10px 10px 5px;
+}
+.interests:hover .korpa{
+    display: block;
+}
+.interests .trash-interests{
+    position: absolute;
+    left: 9px;
+    top:-21px;
+    cursor: pointer;
+}
+.wd-interests{
+    margin-bottom: 50px;
+    position: relative;
+    text-align: left;
+}
+.wd-interests .popup{
+    display: none;
+}
+.wd-interests:hover .popup {
+    display: block;
+}

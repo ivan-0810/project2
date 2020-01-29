@@ -1,0 +1,34 @@
+.design-contacts{
+    display: flex;
+    flex-direction: column;
+
+}
+.design-contacts div {
+    position: relative;
+}
+.design-contacts p{
+    font-size: 11px;
+    cursor: pointer;
+    width: fit-content;
+}
+.Design .design-contacts h2 {
+    margin-bottom: 15px;
+    cursor: unset;
+}
+
+.design-contacts label{
+   width: fit-content;
+}
+.design-contacts input{
+    font-size: 9px;
+   
+    position: absolute;
+    top: 3px;
+}
+.design-contacts input::placeholder{
+    color: black;
+}
+.design-contacts .hide-twiter .trash-twiteer{
+    position: absolute;
+    top: -17px;
+}

@@ -1,0 +1,61 @@
+
+.add-DataScience-workExpirience  h2{
+    color: #354457;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.add-DataScience-workExpirience{
+    margin-top: 28px;
+}
+.add-DataScience-workExpirience:hover .btnAdd {
+    display: block;
+    background-color: white;
+    color: #354457;
+    border: 2px solid #354457;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.add-DataScience-workExpirience:hover .btnAdd:focus {
+    outline: none;
+}
+.data-science-inputs {
+    position: fixed;
+    width: 25%;
+    bottom: 7vh;
+    z-index: 1;
+    margin-top: 25px;
+}
+.data-science-inputs input::placeholder, .data-science-inputs span, .data-science-inputs .span-left{
+    color: #354457;
+}
+
+ .data-science-inputs .span-left{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.data-science-inputs input[name="span2InputVal"], input[name="AccomplishmentsResponsibilityTaskValue"] {
+    border-bottom: 1px dashed #354457;
+} 
+
+.Data-Science-work-expirience h4 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+.Data-Science-work-expirience h4,.Data-Science-work-expirience p{
+    text-transform: capitalize;
+}
+.Data-Science-work-expirience .span-left,.Data-Science-work-expirience  .span-right,.Data-Science-work-expirience  h5{ 
+    color: rgb(148, 144, 144);
+}
+
+.Data-Science-work-expirience  ul {
+    padding: 0
+}
+.fa-minus {
+    padding-right: 10px;
+}
+.radio-ds{
+    background-color: #354457;
+}

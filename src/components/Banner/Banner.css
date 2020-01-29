@@ -1,0 +1,40 @@
+.Banner {
+  display: flex;
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
+ 
+}
+.left-banner, .right-banner{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.left-banner {
+    flex-basis: 50%;
+    background-color: #ede63e;
+
+}
+.right-banner {
+    flex-basis: 50%;
+    background-color: #6530d8;
+}
+
+.Banner p {
+    display: inline-block;
+    color: white;
+    margin-bottom: 0;
+    margin-right: 50px;
+    font-size: 13px;
+}
+.Banner a {
+    background-color: #071923;
+    color: lightgray;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 9px;
+}

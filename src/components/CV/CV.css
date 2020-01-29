@@ -1,0 +1,60 @@
+.CV {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+   
+}
+.CVblog {
+    flex-basis: 60%;
+    box-shadow: 0 0 5px 0 lightgray;
+    margin-left: 20px;
+    position: relative;
+}
+.EditBlog {
+    flex-basis: 30%;
+    box-shadow: 0 0 5px 0 lightgray;
+    margin-right:20px
+}
+.EditBlog p{
+    position: fixed;
+    top: 13%;
+}
+
+.download, .edit {
+    background-color: #6530d8;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    box-shadow: 0 0 5px 0 lightgray;
+    margin-right: 20px;
+    float: right;
+}
+
+.download:focus, .edit:focus {
+    outline: none;
+}
+.download {
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+.edit {
+    padding:10px 15px;
+    position: absolute;
+    top:27px;
+    right: 20px;
+}
+
+button:hover {
+    background-color: lightgray;
+    color: #6530d8;
+}
+.EditBlog p {
+ color: #b2b9bf;
+ padding:45px;
+}

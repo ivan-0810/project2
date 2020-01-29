@@ -1,0 +1,134 @@
+
+.languages{
+    position: relative;
+    margin-top: 50px;
+}
+.languages h2 {
+    font-weight: bold;
+    color: #354457;
+    text-transform: uppercase;
+}
+
+.languages input[placeholder="Language"]::placeholder {
+    color: #354457;
+    font-size: 13px!important;
+    
+}
+.languages input[placeholder="Language"]{
+    width: 50%;
+}
+.trash-languages{
+    padding: 4px;
+}
+.languages .languages-input {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 30px;
+  
+}
+
+.languages div .languages-title {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 11px;
+    cursor: pointer;
+   
+}
+.languages-main-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #354457;
+    margin: 0;
+    text-transform: capitalize;
+}
+.languages-title:hover{
+    color: gray;
+}
+
+.languages div .levelofLanguage {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+    background-color: #354457;
+    color: white;
+    border-radius: 4px;
+    font-size: 13px;
+    box-shadow: 5px 5px 5px 0 lightgray;
+    position: absolute;
+    top: 62px;
+}
+.languages div .levelofLanguage  span{
+    padding: 2px;
+}
+.languages div .levelofLanguage  span:hover{
+    color: #2dbbad;
+    cursor: pointer;
+}
+.settings-proficiency {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    background-color: #354457;
+    width: 50%;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 0 lightgray;
+    position: absolute;
+    top: -192px;
+    right: -15px;
+}
+.settings-proficiency div {
+    display: flex;
+    justify-content: space-between;  
+    flex-direction: row; 
+}
+.settings-proficiency span {
+    color: gray;
+    font-size: 9px;
+    flex-basis: 20%;
+    margin-top: 10px!important;
+    padding: 5px;
+}
+.settings-proficiency .settings{
+    font-size: 13px;
+    padding-left: 0;
+}
+.settings-proficiency .text-profiency {
+    flex-basis: 80%;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 68%;
+    margin-top: 10px;
+    font-size: 11px;
+    margin-bottom: 0;
+}
+.text-profiency:hover{
+    color: white;
+}
+.final-lang-div{
+    margin-top: 30px;
+    position: relative;
+}
+.korpa-languages{
+    display: none;
+    position: absolute;
+    top: -20px;
+}
+.trash-languages{
+    font-size: 9px;
+    top: -28px;
+}
+.final-lang-div:hover .korpa-languages{
+    display: block;
+    cursor: pointer;
+}
+.final-lang-div .languages-title:hover{
+    color: #354457;
+    cursor: auto
+}

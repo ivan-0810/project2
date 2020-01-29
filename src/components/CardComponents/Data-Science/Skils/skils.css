@@ -1,0 +1,63 @@
+
+
+ .skils-programingLanguages p {
+    color: #3a444e;
+}
+.ds-skils,.ds-pb {
+    margin-top: 28px;
+    margin-bottom: 50px;
+}
+.skils-programingLanguages{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    position: relative;
+}
+.skils-programingLanguages .topki{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.skils-programingLanguages p {
+    margin-left: 0;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.skils-programingLanguages p:focus{
+    outline: none;
+    background: none;
+}
+.dataScienceCheckbox{
+    border: 1px solid #3a444e;
+    border-radius: 19px;
+    border: 1px solid #3a444e;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    padding: 6px;
+    cursor: pointer;
+    margin: 5px;
+}
+.ds-skils input[placeholder="enter programing language"] {
+    width: 100%;
+    margin-top: 25px;
+}
+.ds-skils input[placeholder="enter programing language"]::placeholder{
+    color: #354457;;
+}
+.skils-programingLanguages:hover .korpa-skils{
+    display: block;
+}
+.korpa-skils {
+    padding:5px;
+    font-size: 9px;
+    display: none;
+}
+
+
+

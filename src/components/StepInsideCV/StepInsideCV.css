@@ -1,0 +1,47 @@
+.StepInsideCV {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+} 
+ .textDiv {
+  flex-basis: 55%;
+  text-align: left;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.textDiv h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+.textDiv p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: gray;
+    font-weight: bold;
+}
+.textDiv a {
+    background-color: #6530d8;
+    color: lightgray;
+    padding: 13px 50px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+}
+.textDiv a:hover {
+    background-color: lightgray;
+    color: #6530d8;
+}
+.imgDiv {
+    flex-basis: 45%;
+    margin: 50px -50px 0;
+    
+}
+
+.imgDiv img{
+    width: 100%;
+}

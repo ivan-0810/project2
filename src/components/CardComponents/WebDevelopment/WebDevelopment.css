@@ -1,0 +1,436 @@
+/* za klikanje divovi styling */
+.WebtipsHeader {
+    width: 209px;
+    height: 117px;
+    position: absolute;
+    left: 38px;
+    top: 15px;
+}
+.WebtipsPhoto {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 16px;
+    left: 42%;
+}
+.WebtipsInfos{
+    width: 114px;
+    height: 100px;
+    position: absolute;
+    right: 20px;
+    top: 17px;
+}
+.WebtipsWorkExpirience {
+    width: 55%;
+    height: 81%;
+    position: absolute;
+    top: 150px;
+}
+.WebtipsSkils {
+    width: 38%;
+    height: 163px;
+    position: absolute;
+    right: 20px;
+    top: 150px;
+}
+.WebtipsAchivmentsInterests{
+    width: 45%;
+    height: 54%;
+    position: absolute;
+    top: 335px;
+    right: -7px;
+}
+
+
+/* //////////////////////////////////////////// */
+
+
+
+
+
+.WebDevelopment {
+    width: 75%;
+    margin-left: 40px;
+    margin-top: 50px;
+   position: relative;
+   padding-top: 20px;
+}
+.WebDevelopment h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+
+}
+.WebDevelopment h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+}
+.WebDevelopment h2:hover{
+    color: gray;
+    cursor: pointer;
+}
+h3,h4 {
+    text-transform: capitalize;
+}
+header{
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2dbbad;
+}
+.left {
+    display: flex;
+    position: relative;
+    flex-basis: 75%;
+}
+
+.right{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.header-contacts div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 3px 0 5px 0;
+  
+}
+.hide-twiter .trash-twiteer {
+    display: none;
+}
+.hide-twiter:hover .trash-twiteer {
+    display: block;
+}
+.trash-twiteer{
+    position: absolute;
+    left: 0;
+
+}
+.hide-twiter:hover .trash-twiteer i{
+    padding: 5px;
+    width: none;
+    font-size: 9px;
+    top: -25px;
+    color: white;
+}
+
+.header-contacts div label {
+    cursor: pointer;
+}
+.header-contacts input{
+    margin-left: 5px;
+}
+.header-contacts div i {
+    width: 23px;
+    font-size: 11px;
+    text-align: center;
+    color: #374455;
+}
+.right p {
+    cursor: pointer;
+}
+.WebDevelopment header .right .popup{
+    display: none;
+}
+.WebDevelopment header .right:hover .popup {
+    display: block;
+}
+.web-header-textdiv {
+    text-align: left;
+    font-size: 11px;
+    margin-left:45px;
+    width: 35%;
+}
+.web-header-textdiv h2 {
+    margin-bottom:0
+}
+.web-header-textdiv h4 {
+    color:#2dbbad ;
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 11px;
+}
+.web-header-textdiv p{
+    font-size: 11px;
+}
+
+.rectangle-black, .rectangle {
+    width: 30px;
+    height: 40px;
+    display:inline-block;
+}
+.rectangle-black {
+    background-color: #374455;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+}
+
+header .right{
+    text-align: right;
+    font-size: 9px;
+    margin-right: 15px;
+}
+.WebDevelopment textarea{
+    width: 134%;
+    outline: none;
+    border: 1px solid #2dbbad;
+}
+input {
+    border: none;
+    border-bottom: 1px solid  gray;
+ 
+}
+input[name="span2InputVal"],input[name="AccomplishmentsResponsibilityTaskValue"]{
+    border-bottom: 1px dashed #2dbbad;
+}
+input[name="AccomplishmentsResponsibilityTaskValue"],input[name="span2InputVal"]{
+    font-size: 11px;
+    
+}
+input[name="AccomplishmentsResponsibilityTaskValue"] {
+    width:70%;
+}
+input[placeholder="title/position"] {
+    width: 80%;
+}
+
+input:focus {
+    outline: none;
+}
+.date-div-style{display: flex;}
+.radio-checkbox1 {
+    border: 1px solid black;
+    border-radius: 19px;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    margin-top: 11px;
+    margin-left: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radio-checkbox{
+    background-color: #2dbbad;
+    border-radius: 50%;
+    margin: 3px;
+    width: 8px;
+    height: 5px;
+    transition: background-color 1s ;
+}
+
+.inputs-dates{
+    width: 10%;
+    border-bottom: 1px dashed  gray;
+    font-size: 11px;
+    text-transform: none;
+    text-align: center;
+}
+label {
+    margin-bottom: 0;
+}
+#H2::placeholder{font-size: 25px;}
+#H4::placeholder{font-size: 15px;}
+.inputs-dates::placeholder{text-transform: none;}
+
+ input::placeholder{
+     color: #2dbbad;
+     text-transform: capitalize;
+     font-style: italic;
+ }
+ .fa-trash-alt,.btn-add-edit{
+ padding: 2px;
+ color: white;
+ background-color: #303d46;
+ border-radius: 4px;
+ transition: background-color 1s;
+ }
+ .fa-trash-alt {
+     font-size: 10px;
+ }
+ .add-edit-remove {
+
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    background-color: #303d46;
+    border-radius: 4px;
+   
+ }
+ .add-edit-remove{
+     display: none;
+ }
+ .work-expirience:hover .add-edit-remove{
+     display: flex;
+ }
+ .btn-add-edit{
+    outline: none;
+    color: white;
+    border: none;
+    font-size: 10px;
+ }
+ .btn-add-edit:focus{
+     outline:none;
+ }
+
+ .fa-trash-alt:hover ,.btn-add-edit:hover{
+    background-color:#d35e54;
+    color: white;
+ }
+ 
+/* main container ////////////// */
+
+.main-container {
+    display: flex;
+    margin-bottom: 90px;
+}
+.left-main-block {
+    flex-basis: 65%;
+    position: relative;
+    text-align: left;
+    margin-left:45px;
+
+}
+.right-main-block {
+    flex-basis: 35%;
+}
+.rectangle {
+    background-color:#2dbbad ;
+    position: absolute;
+    top: 33px;
+    left: 0px;
+}
+.left-main-block h3 {
+    margin-bottom: 2px
+}
+.left-main-block h4 {
+    margin:0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.left-main-block p {
+    margin: 0;
+}
+.left-main-block .span-left,.span-right {
+    font-style: italic;
+    font-size: 11px;
+}
+.left-main-block .span-left, .span-right {
+    text-transform: capitalize;
+    font-size: 11px;
+    color: #2dbbad;
+    font-weight: bold;
+}
+.span-left{ float: left}
+.span-right{float:right}
+.left-main-block h5{ 
+    margin: 17px 0 0 0 ;
+    color: #2dbbad;
+    font-style: italic;
+    font-size: 13px;
+}
+.left-main-block ul {
+    margin-top: 0;
+    padding-left:19px;
+    list-style-type: square;
+}
+.left-main-block ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 11px;
+    margin: 5px;
+}
+.left-main-block .WorkExpirience ul li::before {
+    color:#14CCBB; 
+  content:"\25AA"; 
+  font-size:1.5em; 
+  padding-right:.25em;     
+  }
+/* right-main-block */
+.right-box1{text-align: left;}
+
+.WebDevelopment img {
+    width:100%;
+}
+/* add remove buttons */
+.btnAdd, .btnRemove,.editAdd {
+    border-radius: 4px;
+    color: white;
+    background-color: #2dbbad;
+    margin:5px;
+    font-size: 15px;
+    border: none;
+    position: absolute;
+    
+}
+.btnAdd:hover, .btnRemove:hover .editAdd:hover {
+    color: white;
+    background-color: #2dbbad;
+}
+
+.btnAdd,.btnRemove,.editAdd{
+    display: none;
+}
+.rectangle{
+    top:0;
+    left:-45px;
+}
+.onAdd{ 
+    position: relative;
+    margin-top: 15px;
+}
+.onAdd:hover .btnAdd {
+    display: block;
+    top: 14px;
+    left: 0px;
+    z-index: 1;
+}
+
+
+
+.icon-add-remove{
+    margin-right: 10px;
+    color:#2dbbad;
+}
+
+
+.work-expirience  {
+    margin-right: 50px;
+    margin-bottom: 40px;
+    position: relative;
+    cursor: pointer;
+}
+.pozicija{
+    position: relative;
+}
+.work-expirience:hover .btnRemove {
+    display: block;
+    top:30px;
+    right: 23px;
+}
+.WorkExpirience {
+    margin-bottom: 50px;
+}
+.wd-achievments{
+    position: relative;
+}
+.forma-style {
+    position: fixed;
+    width: 25%;
+    bottom: 15vh;
+    left: 7%;
+    z-index: 1;
+    border-radius: 4px;
+    background-color: white;
+    padding: 20px 0 0 20px;
+}
+.forma-style .popup{
+    margin-bottom: 15px;
+}
