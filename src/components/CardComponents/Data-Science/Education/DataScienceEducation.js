@@ -25,8 +25,18 @@ const DataScienceEducation = props => {
     const [span2InputVal, setspan2InputVal] = useState("");
     
     const onFormInput = (e) => {
-        setonFormHideInput(!onFormHideInput);      
+        setonFormHideInput(!onFormHideInput); 
+        if(!onFormHideInput){
+            document.querySelector("body").style.backgroundColor="lightgray";
+            }else {
+                document.querySelector("body").style.backgroundColor="white"; 
+            }     
     };
+    const onCloseBtn = (e) => { 
+        setonFormHideInput(false);
+        setEditMode(false);
+        document.querySelector("body").style.backgroundColor="white"; 
+    }
 
  
     const removeObj = (e, el) => {
@@ -36,10 +46,8 @@ const DataScienceEducation = props => {
         setonFormHideInput(false);
     }
     const onEditInputs = (e, el) => {
-
+        document.querySelector("body").style.backgroundColor="lightgray"; 
         setEditId(niza.indexOf(el));
-        //console.log(editId);
-        //console.log(el);
         setEditMode(!editMode);
         niza.forEach((element) => {
             if (element.id === el.id) {
@@ -66,10 +74,8 @@ const DataScienceEducation = props => {
                 span2: span2InputVal,
             }
             if (e.keyCode == 13) {
+                document.querySelector("body").style.backgroundColor="white"; 
                 setEditMode(false)
-                console.log(editId);
-                // console.log(niza);
-
                 niza.splice(editId, 1, obj)
                 setonFormHideInput(false);
                 setonFormHideInput(false);
@@ -85,7 +91,7 @@ const DataScienceEducation = props => {
         } else {
 
         if (e.keyCode === 13 ) {    
-         
+            document.querySelector("body").style.backgroundColor="white"; 
             setNiza([...niza,{
                                 id: uuid(),
                                 H4:institution,
@@ -241,7 +247,7 @@ const DataScienceEducation = props => {
                             onKeyUp={onSubmitForm} />
                     </div>
 
-
+                    <button className="btn-close" onClick={onCloseBtn}>close</button>
                 </div>
             }
 

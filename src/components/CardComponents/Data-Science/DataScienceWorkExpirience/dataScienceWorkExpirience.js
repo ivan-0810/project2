@@ -27,9 +27,18 @@ const DataScienceWorkExpirience = (props) => {
 
     const onFormInput = (e) => {
         setonFormHideInput(!onFormHideInput);
-       
+        if(!onFormHideInput){
+            document.querySelector("body").style.backgroundColor="lightgray";
+            }else {
+                document.querySelector("body").style.backgroundColor="white"; 
+            }
         
     };
+    const onCloseBtn = (e) => { 
+        setonFormHideInput(false);
+        setEditMode(false);
+        document.querySelector("body").style.backgroundColor="white"; 
+    }
 
  
     const removeObj = (e, el) => {
@@ -38,10 +47,8 @@ const DataScienceWorkExpirience = (props) => {
         setIsChecked(false);   
     }
     const onEditInputs=(e,el) => {
-        
+        document.querySelector("body").style.backgroundColor="lightgray"; 
         setEditId(niza.indexOf(el))
-        //console.log(editId);
-        //console.log(el);
         setEditMode(!editMode);
         niza.forEach((element) => {
             if(element.id === el.id){
@@ -72,10 +79,8 @@ const DataScienceWorkExpirience = (props) => {
                  ul: ulLista
              }
          if(e.keyCode == 13) {
-             setEditMode(false)
-             console.log(editId);
-            // console.log(niza);
-             
+            document.querySelector("body").style.backgroundColor="white"; 
+             setEditMode(false);
              niza.splice(editId,1,obj)
              setonFormHideInput(false);
              setonFormHideInput(false);
@@ -94,7 +99,7 @@ const DataScienceWorkExpirience = (props) => {
          
      }else {
         if (e.keyCode === 13 ) {    
-           
+            document.querySelector("body").style.backgroundColor="white"; 
             setNiza([...niza,{
                                 id: uuid(),
                                 H4:H4InputVal,
@@ -306,7 +311,7 @@ const DataScienceWorkExpirience = (props) => {
                             onChange={(e) => setspan2InputVal(e.target.value)}
                             onKeyUp={onSubmitForm} />
                        </div>
-
+                       <button className="btn-close" onClick={onCloseBtn}>close</button>
 
                     </div>
                 }

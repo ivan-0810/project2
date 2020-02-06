@@ -26,8 +26,19 @@ const WorkExpirience = (props) => {
     const [span2InputVal, setspan2InputVal] = useState("");
     const [AccomplishmentsInputVal, setAccomplishmentsInputVal] = useState("");
     const [AccomplishmentsResponsibilityTaskValue, setAccomplishmentsResponsibilityTaskValue] = useState("");
-    const onFormInput = (e) => {  setonFormHideInput(!onFormHideInput);
+    const onFormInput = (e) => {  
+        setonFormHideInput(!onFormHideInput);
+        if(!onFormHideInput){
+        document.querySelector("body").style.backgroundColor="lightgray";
+        }else {
+            document.querySelector("body").style.backgroundColor="white"; 
+        }
     };
+    const onCloseBtn = (e) => { 
+        setonFormHideInput(false);
+        setEditMode(false);
+        document.querySelector("body").style.backgroundColor="white"; 
+    }
 
     const removeObj = (e, el) => {
         let filteredNiza = niza.filter(filter => filter.id !== el.id);
@@ -36,10 +47,9 @@ const WorkExpirience = (props) => {
         setonFormHideInput(false);
     }
     const onEditInputs=(e,el) => {
-        
+        document.querySelector("body").style.backgroundColor="lightgray";      
         setEditId(niza.indexOf(el))
-        //console.log(editId);
-        //console.log(el);
+
         setEditMode(!editMode);
         niza.forEach((element) => {
             if(element.id === el.id){
@@ -55,7 +65,7 @@ const WorkExpirience = (props) => {
         });   
     }
     const onSubmitForm = (e) => {
-        if(editMode){
+        if(editMode){   
                let obj= {
                     id: uuid(),
                     H4: H4InputVal,
@@ -69,10 +79,8 @@ const WorkExpirience = (props) => {
                     ul: ulLista
                 }
             if(e.keyCode == 13) {
-                setEditMode(false)
-                console.log(editId);
-               // console.log(niza);
-                
+                document.querySelector("body").style.backgroundColor="white"; 
+                setEditMode(false);
                 niza.splice(editId,1,obj)
                 setonFormHideInput(false);
                 setonFormHideInput(false);
@@ -91,6 +99,7 @@ const WorkExpirience = (props) => {
             
         }else {
             if (e.keyCode === 13) {
+                document.querySelector("body").style.backgroundColor="white"; 
                 setNiza([...niza, {
                     id: uuid(),
                     H4: H4InputVal,
@@ -135,7 +144,7 @@ const WorkExpirience = (props) => {
         <div className="WorkExpirience">
             <div className="onAdd">
                 <h2>Work Expirience</h2>
-                <button className="btnAdd" onClick={onFormInput}>Add</button>       
+    <button className="btnAdd" onClick={onFormInput}>add</button>       
             </div>
             {niza.map((el, key) => (
                 <div key={key} id={el.id} className="work-expirience">
@@ -146,8 +155,9 @@ const WorkExpirience = (props) => {
 
                     
                     {(!onFormHideInput || !editMode) &&
+                    
                         <Fragment>
-                             
+                            
                             <div className="rectangle"></div>
                             <label htmlFor="prvInput"><h4 >{el.H4}</h4></label>
                             <p>{el.p}</p>
@@ -187,6 +197,7 @@ const WorkExpirience = (props) => {
                      <Popup text="Submit Form on Press Enter. It's not required to fill all the fields.
                     If you don't want to fill some of the inputs, just leave empty.If you leave
                      'Achievements/Tasks' empty it will be automaticly filled with 'Accomplishments' " />  
+
                     <input
                         placeholder="title/position"
                         type="text"
@@ -293,6 +304,7 @@ const WorkExpirience = (props) => {
                             onChange={(e) => setspan2InputVal(e.target.value)}
                             onKeyUp={onSubmitForm} />
                     </div>
+                    <button className="btn-close" onClick={onCloseBtn}>close</button> 
 
 
                 </div>

@@ -25,14 +25,27 @@ const DMWorkExpirience = (props) => {
     const [AccomplishmentsInputVal, setAccomplishmentsInputVal] = useState("");
     const [AccomplishmentsResponsibilityTaskValue, setAccomplishmentsResponsibilityTaskValue] = useState("");
 
-    const onFormInput = (e) => { setonFormHideInput(!onFormHideInput);};
+    const onFormInput = (e) => {
+         setonFormHideInput(!onFormHideInput);
+         if(!onFormHideInput){
+            document.querySelector("body").style.backgroundColor="lightgray";
+            }else {
+                document.querySelector("body").style.backgroundColor="white"; 
+            }
+        };
+        const onCloseBtn = (e) => { 
+            setonFormHideInput(false);
+            setEditMode(false);
+            document.querySelector("body").style.backgroundColor="white"; 
+        }
     const removeObj = (e, el) => {
         let filteredNiza = niza.filter(filter => filter.id !== el.id );
         setNiza([...filteredNiza]);
         setIsChecked(false);
         setonFormHideInput(false);     
     }
-    const onEditInputs=(e,el) => {       
+    const onEditInputs=(e,el) => {  
+        document.querySelector("body").style.backgroundColor="lightgray";      
         setEditId(niza.indexOf(el))
         setEditMode(!editMode);
         niza.forEach((element) => {
@@ -65,9 +78,6 @@ const DMWorkExpirience = (props) => {
                 }
             if(e.keyCode == 13) {
                 setEditMode(false)
-                console.log(editId);
-               // console.log(niza);
-                
                 niza.splice(editId,1,obj)
                 setonFormHideInput(false);
                 setonFormHideInput(false);
@@ -85,9 +95,8 @@ const DMWorkExpirience = (props) => {
         
             
         }else {
-         
-            
             if (e.keyCode === 13) {
+                document.querySelector("body").style.backgroundColor="white";
                 setNiza([...niza, {
                     id: uuid(),
                     H4: H4InputVal,
@@ -298,7 +307,7 @@ const DMWorkExpirience = (props) => {
                             onKeyUp={onSubmitForm} />
                        </div>
 
-
+                       <button className="btn-close" onClick={onCloseBtn}>close</button>
                     </div>
                 }
                 

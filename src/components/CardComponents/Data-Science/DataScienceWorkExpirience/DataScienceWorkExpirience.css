@@ -16,6 +16,11 @@
     margin-top: 0;
     margin-bottom: 5px;
 }
+.data-science-inputs  .btn-close{
+    background-color: white!important;
+    color: #354457!important;
+    border: 2px solid #354457!important;
+}
 .add-DataScience-workExpirience:hover .btnAdd:focus {
     outline: none;
 }
@@ -25,6 +30,14 @@
     bottom: 7vh;
     z-index: 1;
     margin-top: 25px;
+    background-color: white;
+}
+.data-science-inputs  .popup{
+    display: none;
+    margin-bottom: 15px;
+}
+.data-science-inputs:hover .popup{
+    display: block;
 }
 .data-science-inputs input::placeholder, .data-science-inputs span, .data-science-inputs .span-left{
     color: #354457;

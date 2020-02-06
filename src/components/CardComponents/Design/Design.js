@@ -22,61 +22,18 @@ class Design extends React.Component {
     }
 
     render() {
-
-        const DesigntipsPhoto = {
-            width: "48%",
-            height: "37vh",
-            position: "absolute",
-            top: "12vh",
-            left: "6%",
-            //backgroundColor: "purple"
-        }
-
-
-        const DesigntipsInfos = {
-            width: "22%",
-            height: "17vh",
-            position: "absolute",
-            bottom: "20vh",
-            left: "10%",
-            //backgroundColor: "gray"
-        }
-        const DesignWorkExpirience = {
-            width: "33%",
-            height: "47vh",
-            position: "absolute",
-            top: "78vh",
-            left:"10%"
-            // backgroundColor: "yellow"
-        }
-
-        const DesigntipsSkils = {
-            width: "22%",
-            height: "23vh",
-            position: "absolute",
-            top: '105vh',
-            right: "27%",
-            // backgroundColor: "blue"
-        }
-        const DesignEdication = {
-            width: "22%",
-            height: "22vh",
-            position: "absolute",
-            top: '77vh',
-            right: "27%",
-            //  backgroundColor: "red"
-        }
+      
         const style = { width: "100%" }
         return (
             <div className="Design">
                 {!this.props.editPage ?
                     <Fragment>
                         <img src={DesignPic} alt="" style={style} />
-                        <div onClick={this.props.tips} style={DesigntipsPhoto} className="DesigntipsPhoto"></div>
-                        <div onClick={this.props.tips} style={DesigntipsInfos} className="DesigntipsInfos"></div>
-                        <div onClick={this.props.tips} style={DesignWorkExpirience} className="DesignWorkExpirience"></div>
-                        <div onClick={this.props.tips} style={DesigntipsSkils} className="DesigntipsSkils"></div>
-                        <div onClick={this.props.tips} style={DesignEdication} className="DesignEdication"></div>
+                        <div onClick={this.props.tips}  className="DesigntipsPhoto"></div>
+                        <div onClick={this.props.tips}  className="DesigntipsInfos"></div>
+                        <div onClick={this.props.tips}  className="DesigntipsWorkExpirience"></div>
+                        <div onClick={this.props.tips}  className="DesigntipsSkils"></div>
+                        <div onClick={this.props.tips}  className="DesignEdication"></div>
                     </Fragment>
                     :
                     <div id="divToPrint" style={{marginLeft:"25px"}}>

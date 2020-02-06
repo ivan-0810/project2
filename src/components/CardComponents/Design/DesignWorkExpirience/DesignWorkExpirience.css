@@ -1,7 +1,7 @@
 .DesignWorkExpirience{
     margin-bottom: 50px;
 }
-.DesignWorkExpirience .btnAdd {
+.DesignWorkExpirience .btnAdd, .DesignWorkExpirience .btn-close{
  margin: 0;
  color: black;
  background-color: white;
@@ -9,10 +9,12 @@
  transition: background-color 1s;
  outline: none;
 }
-.DesignWorkExpirience .btnAdd:hover {
+.DesignWorkExpirience .btn-close{ margin:10px;}
+.DesignWorkExpirience .btnAdd:hover, .DesignWorkExpirience .btn-close:hover{
     color: white;
     background-color: black;
 }
+
 .DesignWorkExpirience .design-inputs-dates{
     width: 24px;
     height: 20px;

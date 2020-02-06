@@ -33,9 +33,7 @@ const WebDevelopment = (props) => {
                     <div onClick={props.tips} className="WebtipsInfos"></div>
                     <div onClick={props.tips} className="WebtipsWorkExpirience"></div>
                     <div onClick={props.tips} className="WebtipsSkils"></div>
-                    <div onClick={props.tips} className="WebtipsEdication"></div>
                     <div onClick={props.tips} className="WebtipsAchivmentsInterests"></div>
-                    <div onClick={props.tips} className="DataSciencetipsLanguages"></div>
                 </div>
 
                 :

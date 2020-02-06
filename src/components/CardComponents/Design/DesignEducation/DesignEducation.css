@@ -17,5 +17,10 @@
     position: relative;
 }
 .design-edu-popup  .popup{
-    top: -131px!important;
+    top: -100px!important;
+    display: none;
+}
+.design-edu-popup:hover  .popup{
+    top: -100px!important;
+    display: block;
 }

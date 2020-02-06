@@ -22,7 +22,17 @@ const DesignEducation = (props) => {
     const [datesYear2InputVal, setDatesYear2InputVal] = useState("");
     const onFormInput = (e) => {
         setonFormHideInput(!onFormHideInput);
+        if(!onFormHideInput){
+            document.querySelector("body").style.backgroundColor="lightgray";
+            }else {
+                document.querySelector("body").style.backgroundColor="white"; 
+            }
     };
+    const onCloseBtn = (e) => { 
+        setonFormHideInput(false);
+
+        document.querySelector("body").style.backgroundColor="white"; 
+    }
     const removeObj = (e, el) => {
         let filteredNiza = niza.filter(filter => filter.id !== el.id);
         setNiza([...filteredNiza]);
@@ -35,7 +45,7 @@ const DesignEducation = (props) => {
             datesMonth1InputVal !== '' &&
             datesYear1InputVal !== ''
         ) {
-
+            document.querySelector("body").style.backgroundColor="white";
             setNiza([...niza, {
                 id: uuid(),
                 education: education,
@@ -91,10 +101,8 @@ const DesignEducation = (props) => {
                 </div>
             ))}
             {onFormHideInput &&
-                <div className="design-edu-popup" style={{ marginTop: "20px", paddingBottom: "25px",}}>
-                     <Popup text="Submit Form on Press Enter. It's not required to fill all the fields.
-                    If you don't want to fill some of the inputs, just leave empty.If you leave
-                     'Achievements/Tasks' empty it will be automaticly filled with 'Accomplishments' " />  
+                <div className="design-edu-popup" style={{ marginTop: "20px",backgroundColor:"white"}}>
+                     <Popup text="Submit Form on Press Enter " />  
                     
                     <div className="date-div-style">
                         <input
@@ -141,7 +149,7 @@ const DesignEducation = (props) => {
                         onChange={(e) => setEducation(e.target.value)}
                         onKeyUp={onSubmitForm} />
                
-                 
+               <button className="btn-close" onClick={onCloseBtn}>close</button>
                 </div>
             }
         </div>

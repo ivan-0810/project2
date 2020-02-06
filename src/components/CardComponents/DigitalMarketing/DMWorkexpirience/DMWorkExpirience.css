@@ -18,6 +18,10 @@
     background-color: #468f98;
     border: none;
 }
+.DMWorkExpirience .forma-style .btn-close{
+    color: #f9ffff;
+    background-color: #468f98;
+}
 .dm-work-expirience {
     position: relative;
 }

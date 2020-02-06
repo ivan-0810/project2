@@ -22,7 +22,19 @@ const DesignWorkExpirience = (props) => {
     const [datesMonth2InputVal, setDatesMonth2InputVal] = useState("");
     const [datesYear2InputVal, setDatesYear2InputVal] = useState("");
     const [textAreaInputVal, setTextAreaInputVal] = useState("");
-    const onFormInput = (e) => {setonFormHideInput(!onFormHideInput);};
+    const onFormInput = (e) => {
+        setonFormHideInput(!onFormHideInput);
+        if(!onFormHideInput){
+            document.querySelector("body").style.backgroundColor="lightgray";
+            }else {
+                document.querySelector("body").style.backgroundColor="white"; 
+            }
+    };
+    const onCloseBtn = (e) => { 
+        setonFormHideInput(false);
+        setEditMode(false);
+        document.querySelector("body").style.backgroundColor="white"; 
+    }
     const removeObj = (e, el) => {
         let filteredNiza = niza.filter(filter => filter.id !== el.id);
         setNiza([...filteredNiza]);
@@ -30,10 +42,8 @@ const DesignWorkExpirience = (props) => {
         setonFormHideInput(false);
     }
     const onEditInputs=(e,el) => {
-        
+        document.querySelector("body").style.backgroundColor="lightgray"; 
         setEditId(niza.indexOf(el))
-        //console.log(editId);
-        //console.log(el);
         setEditMode(!editMode);
         niza.forEach((element) => {
             if(element.id === el.id){
@@ -61,6 +71,7 @@ const DesignWorkExpirience = (props) => {
                  paragraph: textAreaInputVal,
              }
              if(e.keyCode == 13) {
+                document.querySelector("body").style.backgroundColor="white";
                 setEditMode(false)
                 niza.splice(editId,1,obj)
                 setonFormHideInput(false);
@@ -76,6 +87,7 @@ const DesignWorkExpirience = (props) => {
              }
      }else {
         if (e.keyCode === 13) {
+            document.querySelector("body").style.backgroundColor="white";
             setNiza([...niza, {
                 id: uuid(),
                 H4: H4InputVal,
@@ -201,6 +213,7 @@ const DesignWorkExpirience = (props) => {
                         onChange={(e) => setTextAreaInputVal(e.target.value)}
                         onKeyUp={onSubmitForm}
                     />
+                     <button className="btn-close" onClick={onCloseBtn}>close</button>
                 </div>
             }
         </div>

@@ -1,3 +1,42 @@
+/* //////  divovi na template */
+.DesigntipsPhoto{
+    width: 45%;
+    height: 22%;
+    position: absolute;
+    top: 7.5%;
+    left: 6%;
+}
+.DesigntipsWorkExpirience{
+    width: 33%;
+    height: 29%;
+    position: absolute;
+    top: 46%;
+    left: 10%;
+}
+.DesignEdication{
+    width: 22%;
+    height: 13%;
+    position: absolute;
+    top: 46%;
+    right: 27%;
+}
+.DesigntipsSkils{
+    width: 22%;
+    height: 14%;
+    position: absolute;
+    top: 62%;
+    right: 27%;
+}
+.DesigntipsInfos{
+    width: 22%;
+    height: 8%;
+    position: absolute;
+    bottom: 14%;
+    left: 10%;
+}
+
+/* /////////////////////////// */
+
 .design-main-container {
     display: flex;
     flex-wrap: wrap;

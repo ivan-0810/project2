@@ -24,7 +24,17 @@ const Education = props => {
 
     const onFormInput = (e) => {
         setonFormHideInput(!onFormHideInput);
+        if(!onFormHideInput){
+        document.querySelector("body").style.backgroundColor="lightgray";
+        }else {
+            document.querySelector("body").style.backgroundColor="white"; 
+        }
     };
+    const onCloseBtn = (e) => { 
+        setonFormHideInput(false);
+        setEditMode(false);
+        document.querySelector("body").style.backgroundColor="white"; 
+    }
 
 
     const removeObj = (e, el) => {
@@ -33,7 +43,7 @@ const Education = props => {
         setIsChecked(false);
     }
     const onEditInputs = (e, el) => {
-
+        document.querySelector("body").style.backgroundColor="lightgray";  
         setEditId(niza.indexOf(el));
         //console.log(editId);
         //console.log(el);
@@ -63,6 +73,7 @@ const Education = props => {
                 span2: span2InputVal,
             }
             if (e.keyCode == 13) {
+                document.querySelector("body").style.backgroundColor="white"; 
                 setEditMode(false)
                 console.log(editId);
                 // console.log(niza);
@@ -80,9 +91,6 @@ const Education = props => {
             }
 
         } else {
-
-
-
             if (e.keyCode === 13 &&
                 (institution !== '' &&
                     datesMonth1InputVal !== '' &&
@@ -92,6 +100,7 @@ const Education = props => {
                     span2InputVal !== ''
                 )) {
                 //nizata se polni so vrednostite od inputite
+                document.querySelector("body").style.backgroundColor="white"; 
                 setNiza([...niza, {
                     id: uuid(),
                     H4: institution,
@@ -245,7 +254,7 @@ const Education = props => {
                             onKeyUp={onSubmitForm} />
                     </div>
 
-
+                    <button className="btn-close" onClick={onCloseBtn}>close</button>
                 </div>
             }
 

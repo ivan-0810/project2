@@ -1,3 +1,69 @@
+ /* ..//////////// templatesliki divovi pozadina */
+.DigitalMarketingtipsHeader {
+    width: 52%;
+    height: 7%;
+    position: absolute;
+    top: 11%;
+    left: 20%;
+}
+.DataSciencetipsPhoto {
+    width: 10%!important;
+    height: 8%!important;
+    position: absolute;
+    top: 11%!important;
+    left: 8%!important;
+}
+.DataSciencetipsInfos {
+    width: 75%!important;
+    height: 3%!important;
+    position: absolute;
+    top: 20%!important;
+    right: 20%!important;
+}
+.DataSciencetipsWorkExpirience {
+    width: 37%;
+    height: 33%;
+    position: absolute;
+    top: 24%;
+}
+.DataSciencetipsSkils {
+    width: 33%;
+    height: 14%;
+    position: absolute;
+    top: 24%;
+    right: 23%;
+}
+.DataSciencetipsProjectsAndPublication {
+    width: 33%;
+    height: 5%;
+    position: absolute;
+    top: 39.5%;
+    right: 23%;
+}
+.DataSciencetipsLanguages {
+    width: 32%;
+    height: 5%;
+    position: absolute;
+    top: 46%;
+    right: 24%;
+}
+.DataSciencetipsInformalEducation {
+    width: 23%;
+    height: 7%;
+    position: absolute;
+    right: 33%;
+    top: 52%;
+}
+.DataSciencetipsEdication {
+    width: 34%;
+    height: 13%;
+    position: absolute;
+    bottom: 29%;
+    left: 7%;
+}
+/* ///////////////////////////////////////////// */
+
+
 .DataScience {
     width: 75%;
     margin-left: 40px;
@@ -134,68 +200,4 @@
     margin-top: 50px;
 }
 
-/* ..//////////// sliki divovi pozadina */
-
-.DigitalMarketingtipsHeader{
-    width: 52%;
-    height: 130px;
-    position: absolute;
-    top: 90px;
-    left: 157px;
-}
-.DataSciencetipsPhoto {
-    width: 11%;
-    height: 13vh;
-    position: absolute;
-    top: 19vh;
-    left: 8%;
-}
-.DataSciencetipsInfos{
-    width: 26%;
-    height: 4vh;
-    position: absolute;
-    top: 34vh;
-    right: 45vh;
-}
-.DataSciencetipsWorkExpirience{
-    width: 37%;
-    height: 33%;
-    position: absolute;
-    top: 39vh;
-}
-.DataSciencetipsSkils{
-    width: 34%;
-    height: 24vh;
-    position: absolute;
-    top: 39vh;
-    right: 22%;
-}
-.DataSciencetipsEdication{
-    width: 34%;
-    height: 30vh;
-    position: absolute;
-    bottom: 40vh;
-    left: 7%;
-}
-.DataSciencetipsLanguages{
-    width: 32%;
-    height: 8vh;
-    position: absolute;
-    top: 77vh;
-    right: 24%;
-}
-.DataSciencetipsProjectsAndPublication{
-    width: 33%;
-    height: 7vh;
-    position: absolute;
-    top: 66vh;
-    right: 23%;
-}
-.DataSciencetipsInformalEducation {
-    width: 23%;
-    height: 10vh;
-    position: absolute;
-    right: 33%;
-    top: 88vh;
-}
 
