@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/project2/static/css/main.e6a3cbed.chunk.css",
-    "main.js": "/project2/static/js/main.7152b15b.chunk.js",
-    "main.js.map": "/project2/static/js/main.7152b15b.chunk.js.map",
+    "main.css": "/project2/static/css/main.87ff470f.chunk.css",
+    "main.js": "/project2/static/js/main.76ebe536.chunk.js",
+    "main.js.map": "/project2/static/js/main.76ebe536.chunk.js.map",
     "runtime-main.js": "/project2/static/js/runtime-main.4d9b012b.js",
     "runtime-main.js.map": "/project2/static/js/runtime-main.4d9b012b.js.map",
     "static/js/2.20e939bb.chunk.js": "/project2/static/js/2.20e939bb.chunk.js",
     "static/js/2.20e939bb.chunk.js.map": "/project2/static/js/2.20e939bb.chunk.js.map",
     "index.html": "/project2/index.html",
-    "precache-manifest.f6e87092ab0a05df4e2572b8e0b9b008.js": "/project2/precache-manifest.f6e87092ab0a05df4e2572b8e0b9b008.js",
+    "precache-manifest.ac29bf57b50a7a3b034d6056091ffffb.js": "/project2/precache-manifest.ac29bf57b50a7a3b034d6056091ffffb.js",
     "service-worker.js": "/project2/service-worker.js",
-    "static/css/main.e6a3cbed.chunk.css.map": "/project2/static/css/main.e6a3cbed.chunk.css.map",
+    "static/css/main.87ff470f.chunk.css.map": "/project2/static/css/main.87ff470f.chunk.css.map",
     "static/js/2.20e939bb.chunk.js.LICENSE": "/project2/static/js/2.20e939bb.chunk.js.LICENSE",
     "static/media/Data Scientist Resume.png": "/project2/static/media/Data Scientist Resume.614384fd.png",
     "static/media/Digital Marketing Resume.png": "/project2/static/media/Digital Marketing Resume.a5adb20a.png",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.4d9b012b.js",
     "static/js/2.20e939bb.chunk.js",
-    "static/css/main.e6a3cbed.chunk.css",
-    "static/js/main.7152b15b.chunk.js"
+    "static/css/main.87ff470f.chunk.css",
+    "static/js/main.76ebe536.chunk.js"
   ]
 }
